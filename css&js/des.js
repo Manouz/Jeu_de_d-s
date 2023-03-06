@@ -2,7 +2,7 @@ var container = document.getElementById("container");
 var des = [];
 
 function ajouterDe() {
-    if (des.length < 6) {
+    if (des.length < 5) {
         var de = document.createElement("div");
         de.classList.add("de");
         container.appendChild(de);
